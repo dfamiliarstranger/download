@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.love{
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.finesse{
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background: #f3f3f3;
+    width: 200px;
+    height: 150px;
+}
+
+.finesse p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: green;
+    width: 100%;
+}
+.finesse a{
+    text-decoration: none;
+    color: red;
+   
+}
